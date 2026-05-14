@@ -1,0 +1,22 @@
+[
+    {
+        "student_id": "KH19",
+        "book_id": "AR07",
+        "issue_date": "2026-05-14"
+    },
+    {
+        "student_id": "SA06",
+        "book_id": "AR08",
+        "issue_date": "2026-05-14"
+    },
+    {
+        "student_id": "JA07",
+        "book_id": "AR04",
+        "issue_date": "2026-05-14"
+    },
+    {
+        "student_id": "YA12",
+        "book_id": "AR02",
+        "issue_date": "2026-05-14"
+    }
+]

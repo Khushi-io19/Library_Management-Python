@@ -1,0 +1,92 @@
+[
+    {
+        "book_id": "AR00",
+        "title": "ARIRANG",
+        "author": "BTS",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR01",
+        "title": "B2B",
+        "author": "Suga",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR02",
+        "title": "Hooligan",
+        "author": "JK",
+        "quantity": 6
+    },
+    {
+        "book_id": "AR03",
+        "title": "Aliens",
+        "author": "RM",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR04",
+        "title": "FYA",
+        "author": "JK",
+        "quantity": 6
+    },
+    {
+        "book_id": "AR05",
+        "title": "2.0",
+        "author": "RM",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR06",
+        "title": "NO.29",
+        "author": "Jin",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR07",
+        "title": "SWIM",
+        "author": "BTS",
+        "quantity": 6
+    },
+    {
+        "book_id": "AR08",
+        "title": "Merry Go Round",
+        "author": "JHope",
+        "quantity": 6
+    },
+    {
+        "book_id": "AR09",
+        "title": "NORMAL",
+        "author": "Suga",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR10",
+        "title": "Like Animals",
+        "author": "V",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR11",
+        "title": "they don't know 'bout us",
+        "author": "Jimin",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR12",
+        "title": "One More Night",
+        "author": "Jimin",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR13",
+        "title": "Please",
+        "author": "JHope",
+        "quantity": 7
+    },
+    {
+        "book_id": "AR14",
+        "title": "Into The Sun",
+        "author": "V",
+        "quantity": 7
+    }
+]
