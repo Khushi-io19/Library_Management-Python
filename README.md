@@ -1,54 +1,39 @@
-📘 Smart Library Management System
+📚 SMART LIBRARY MANAGEMENT SYSTEM
 
-A console-based Library Management System developed using Core Python.
-This project helps manage books, students, issue/return operations, fine calculation, and library statistics using OOP, JSON file handling, and modular programming.
+A console-based Library Management System built using Python and JSON. This project helps manage books, students, issuing and returning of books, fine calculation, issued records, and library statistics in an organized and efficient way.
 
-🚀 Features
+🚀 FEATURES
 
-🔐 Login System
-Admin authentication
-Username & password validation
+✅ Admin Login System
+✅ JSON Database Storage
+✅ Book Management System
+✅ Add / View / Search Books
+✅ Update & Delete Books
+✅ Student Management System
+✅ Issue Book System
+✅ Return Book System
+✅ View Issued Books
+✅ Automatic Quantity Tracking
+✅ Fine Calculation System
+✅ Library Statistics System
+✅ Modular Programming Structure
 
-📚 Book Management
-Add Book
-View Books
-Search Book
-Update Book
-Delete Book
+💰 FINE CALCULATION SYSTEM
 
-👤 Student Management
-Add Student
-View Students
-Search Student
+Rule	Fine
+First 7 Days	No Fine
+After 7 Days	₹10 Per Day
 
-📕 Library Operations
-Issue Book
-Return Book
-View Issued Books
-Automatic Quantity Tracking
+📁 PROJECT STRUCTURE
 
-💰 Fine Calculation
-Calculates late return fine
-₹10 fine per day after 7 days
-
-📊 Statistics
-Total Books
-Total Students
-Total Issued Books
-Available Books Count
-
-🛠 Technologies Used
-Python
-JSON
-OOP (Object-Oriented Programming)
-Modular Programming
-Datetime Module
-
-📁 Project Structure
-
-LIBRARY_MANAGEMENT/
+```plaintext id="d4hjpv"
+library_management/
 │
-├── main.py
+├── LIB_DATA/
+│   ├── admin.json
+│   ├── books.json
+│   ├── students.json
+│   └── issued_books.json
 │
 ├── LIB_MODELS/
 │   ├── book.py
@@ -68,44 +53,100 @@ LIBRARY_MANAGEMENT/
 │   ├── validation.py
 │   └── fine_calculator.py
 │
-└── LIB_DATA/
-    ├── admin.json
-    ├── books.json
-    ├── students.json
-    └── issued_books.json
+└── main.py
+```
 
-▶ How To Run
+💾 TECHNOLOGIES USED
 
-Step 1
-Open terminal in project folder.
+* Python
+* JSON
+* Object-Oriented Programming (OOP)
+* File Handling
+* Datetime Module
+* Modular Programming
 
-Step 2
+▶️ HOW TO RUN
+
+Open project folder in VS Code
+Open terminal
 Run:
-python main.py
 
-🔑 Login Credentials
+```bash id="jlwm2w"
+python main.py
+```
+
+🔑 LOGIN DETAILS
+
+```plaintext id="jzq2ow"
 Username : admin
 Password : 1234
+```
 
-📦 Sample Book Record
-{
-    "book_id": "B01",
-    "title": "Python Basics",
-    "author": "John Smith",
-    "quantity": 5
-}
+📋 MAIN MENU
 
-🎯 Concepts Used
-Classes & Objects
-Functions
-Loops & Conditions
-JSON File Handling
-Exception Handling
-Date & Time Handling
-Modular Programming
+```plaintext id="l7vxmk"
+1. Book Management
+2. Student Management
+3. Issue Book
+4. Return Book
+5. Statistics
+6. Exit
+```
 
-📌 Project Objective
-The objective of this project is to automate and simplify library management operations while demonstrating Core Python concepts through a real-world application.
+📚 BOOK MANAGEMENT
 
-👨‍💻 Developed By
-Khushi aka Yeji aka Jiaxiaozi✨
+* Add Book
+* View Books
+* Search Book
+* Update Book
+* Delete Book
+* View Issued Books
+
+👤 STUDENT MANAGEMENT
+
+* Add Student
+* View Students
+* Search Student
+
+📕 ISSUE & RETURN SYSTEM
+
+The system automatically:
+
+* Checks student records
+* Checks book availability
+* Reduces quantity after issuing
+* Increases quantity after return
+* Saves issued records
+* Calculates fine automatically
+
+📊 STATISTICS SYSTEM
+
+Displays:
+
+* Total Books
+* Total Students
+* Total Issued Books
+* Available Books Count
+
+📦 DATA STORAGE
+
+All data is stored using JSON files:
+
+* admin.json
+* books.json
+* students.json
+* issued_books.json
+
+🌟 FUTURE IMPROVEMENTS
+
+* Admin Dashboard
+* GUI Version
+* SQLite Database Integration
+* Barcode Scanner
+* Book Reservation System
+* Export Reports
+* Email Notifications
+
+👨‍💻 AUTHOR
+
+Developed by Khushi ✨✨
